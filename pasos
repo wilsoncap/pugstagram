@@ -1,0 +1,15 @@
+1 inicialiar el proyecto con git init y npm init, tambien crear las carpetas
+2 instalar las dependencias 
+
+    * npm install svelte --save
+    * npm install @babel/core @babel/preset-env @babel/polyfill babel-loader svelte-loader --save-dev
+    * npm install webpack webpack-cli html-webpack-plugin --save-dev
+
+3 crear y configurar webpack.config.js
+4 crear el index.html en la carpeta public
+5 crear punto de entrada en la carpeta src->containers->App.svelte
+6 configurar i importar los modulos de evelte que vamos creando
+7 instalarr dependencias
+    * npm install webpack-dev-server --save-dev
+8 creamos los escrit en package.json para ver si se puede compilar(nmp run build) correctamente y poder verlo en el navegador(npm rin start)
+9  
